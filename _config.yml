@@ -4,7 +4,8 @@ email: johnson.tieu@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "KZ Daisy is an actor, improvisor, & voiceover artist based in New York City."
+skills: "Actor | Improvisor | Artist"
+city: "New York City"
 meta_author: Tieu John
 
 # Google webmaster tools
@@ -27,12 +28,11 @@ disqus_shortname: myshortname
 color:
   primary: F4C2C2 #F4C2C2
   primary-rgb: "17,92,158" #"128,179,255"
-  secondary: E0FFFF #E0FFFF
-  secondary-dark: 000000 #A2122F
+  secondary: 333e4f #E0FFFF // controls header color
+  secondary-dark: 333e4f #A2122F
 
 # Footer settings
 footer:
-  copyright: John Tieu
   location: Location
   social: Around the Web
   credits: Credits
@@ -40,10 +40,10 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 
-  - title: github
-    url: http://github.com/five301
-  - title: linkedin
-    url: https://www.linkedin.com/in/johnt5301/
+  - title: instagram
+    url: https://www.instagram.com/cashandjiji
+  - title: youtube
+    url: https://www.youtube.com/@kz_daisy
 
 
 # Postal address (add as many lines as necessary)
