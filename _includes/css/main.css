@@ -68,7 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #ac3838;
-    background-color: #{{ site.color.primary }};
+    /* background-color: #{{ site.color.primary }}; */
 }
 
 
@@ -89,7 +89,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #ac3838;
-    background: #{{ site.color.primary }};
+    background-image: url("img/portfolio/header.png");
+    background-size:cover;
+    /* background: #{{ site.color.primary }}; */
 }
 
 #portfolio{
