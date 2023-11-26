@@ -24,11 +24,21 @@
         <li class="page-scroll">
           <a href="#portfolio">Headshots</a>
         </li>
-
         <li class="page-scroll">
           <a href="#contact">Contact</a>
         </li>
+        <li class = "page-scroll">
+          <a href ="#subscribe">Subscribe</a>
+        </li>
       </ul>
+    </div>
+    <div class="socials">
+      {% for network in site.social %}
+      <li>
+        <a href="{{ network.url }}" class="btn-social btn-outline"><i
+            class="fa fa-fw fa-{{ network.title }}"></i></a>
+      </li>
+      {% endfor %}
     </div>
     <!-- /.navbar-collapse -->
   </div>

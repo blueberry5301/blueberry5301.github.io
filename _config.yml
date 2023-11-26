@@ -4,7 +4,7 @@ email: johnson.tieu@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Actor | Improvisor | Artist"
+skills: "Actor | Improvisor | Voiceover Artist"
 city: "New York City"
 meta_author: Tieu John
 
@@ -36,12 +36,13 @@ footer:
   location: Location
   social: Around the Web
   credits: Credits
+  copyright:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 
   - title: instagram
-    url: https://www.instagram.com/cashandjiji
+    url: https://www.instagram.com/thekzdaisy
   - title: youtube
     url: https://www.youtube.com/@kz_daisy
 
