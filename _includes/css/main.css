@@ -235,8 +235,7 @@ section.success {
     }
 }
 #portfolio{
-    background:url("img/portfolio/floral.jpeg");
-    background-size:cover;
+    background-color: #fff;
 }
 
 #portfolio .portfolio-item {
@@ -406,18 +405,23 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
     display:flex;
     background-color: #{{ site.color.secondary }};
 
 }
 
-footer .footer-col {
-    margin-bottom: 50px;
+.footer-col .col-md-4{
+    position:relative;
+    left:26vw;
+}
+
+#subscribeForm{
+    padding-top:10px
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -555,4 +559,14 @@ footer .footer-below {
 
 #bs-example-navbar-collapse-1{
     padding-left: 140px;
+}
+
+.subscribe-title{
+
+}
+
+.row-control-group{
+    width: 20vw;
+    position: relative;
+    left: 29vw;
 }

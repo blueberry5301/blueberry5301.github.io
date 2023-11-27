@@ -2,29 +2,21 @@
 <footer class="text-center">
   <div class="footer-above">
     <div class="container">
-      <div class="row">
-        <div class="footer-col col-md-4">
-          <!-- <h3>{{ site.footer.location }}</h3> -->
-          <!-- <p>
-            {% for adress in site.address %}
-            {{ adress.line }} <br> -->
-            <!-- {% endfor %} -->
-          <!-- </p> -->
-        </div>
-        <div class="footer-col col-md-4">
-          <!-- <h3>{{ site.footer.credits }}</h3>
-          <p>{{ site.credits }}</p> -->
-        </div>
-        <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
-          <ul class="list-inline">
-            {% for network in site.social %}
-            <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa fa-fw fa-{{ network.title }}"></i></a>
-            </li>
-            {% endfor %}
-          </ul>
+      <h2>The KZ 🌼 Newsletter</h2>
+        <div class="footer-container">
+          <form action="https://formspree.io/f/xpzokkgd" method="POST" name="sentMessage" id="subscribeForm" novalidate>
+            <div class="row-control-group">
+                    <input name="_replyto" type="email" class="form-control" placeholder="Type your email..." id="email" required
+                      data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+            </div>
+            <div id="success"></div>
+
+              <div class="form-group col-xs-12">
+                <button value="Send" type="submit" class="btn btn-success btn-lg">Subscribe</button>
+
+            </div>
+          </form>
         </div>
       </div>
     </div>
