@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="path/to/your/css/file.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     {% include head.html %}
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
     {% include about.html %}
     {% include portfolio_grid.html %}
+    {% include resume.html %}
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}

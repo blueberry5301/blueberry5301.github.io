@@ -566,15 +566,54 @@ footer .footer-below {
 }
 
 #bs-example-navbar-collapse-1{
-    padding-left: 140px;
-}
-
-.subscribe-title{
-
+    padding-left: 200px;
 }
 
 .row-control-group{
     width: 20vw;
     position: relative;
     left: 29vw;
+}
+
+.resume-table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.table-entry{
+    border: 1px solid #ac3838;
+    padding: 0.5rem;
+    text-align: left;
+    width:33%;
+}
+
+.table-row{
+    display:flex;
+    justify-content:center
+}
+
+.table-body{
+    width:25%
+}
+
+.resume-headers{
+    display: flex;
+    justify-content: center;
+}
+
+.substack{
+    padding-top: 5px;
+}
+
+
+.training-table{
+    display: flex;
+    justify-content: center;
+}
+
+.training-table-row{
+
 }
