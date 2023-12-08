@@ -627,6 +627,28 @@ footer .footer-below {
     justify-content: center;
 }
 
-.contact-form{
-    padding-left:7em
+
+.contact-portfolio-flex-row{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
+
+@media (min-width: 640px) {
+    .portfolio-flex-grid .contact-portfolio-flex-row{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content:space-evenly;
+    }
+    .portfolio-flex-grid .contact-portfolio-flex-row .portfolio-flex-item {
+      flex: 1 0 49%;
+      max-width: 49%;
+    }
+  }
+  @media (min-width: 960px) {
+    .portfolio-flex-grid .contact-portfolio-flex-row .portfolio-flex-item {
+      flex: 1 0 32%;
+      max-width: 32%;
+    }
+  }
