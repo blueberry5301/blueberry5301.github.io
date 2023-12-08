@@ -7,16 +7,16 @@
 
 @font-face {
     font-family: "Prata";
-    src: url("css/Prata/Prata-Regular.ttf") format("ttf");
+    src: url("../../css/Prata/Prata-Regular.ttf") format("ttf");
 }
 
 body {
     overflow-x: hidden;
-    font-family: 'Prata', serif;
+    font-family: 'Prata'
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p.small {
@@ -414,6 +414,7 @@ footer h3 {
 
 footer .footer-above {
     display:flex;
+    justify-content:center;
     background-color: #{{ site.color.secondary }};
 
 }
@@ -569,12 +570,6 @@ footer .footer-below {
     padding-left: 200px;
 }
 
-.row-control-group{
-    width: 20vw;
-    position: relative;
-    left: 29vw;
-}
-
 .resume-table{
     border-collapse: collapse;
     display: flex;
@@ -614,6 +609,24 @@ footer .footer-below {
     justify-content: center;
 }
 
-.training-table-row{
+.contact-parent-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
 
+.contact-image-container{
+    width:15%
+}
+
+.contact-container{
+    width:30%
+}
+
+.contact-section-header{
+    justify-content: center;
+}
+
+.contact-form{
+    padding-left:7em
 }
