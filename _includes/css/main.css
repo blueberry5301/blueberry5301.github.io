@@ -105,13 +105,12 @@ header .container {
     background-image:url("img/portfolio/floral.jpeg");
     background-size:cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .header-photo-text-container{
     display:flex;
     justify-content: center;
-    padding-top: 20vh;
 }
 
 header img {
@@ -131,25 +130,22 @@ header img {
 
 .intro-circle-container{
     background: rgba(255, 255, 255, 0.75);
-    height: 500px;
-    width: 500px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    position: relative;
-    top: -150px;
+    position:relative;
+    width:30vw;
+    height:55vh;
+    border-radius:50%;
 }
 
 header .intro-circle-container .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: 'Prata', serif;
-    font-size: 3em;
+    font-size: 3vw;
     font-weight: 700;
 }
 
 header .intro-circle-container .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 1.2vw;
     font-weight: 300;
 }
 
